@@ -1,1 +1,3 @@
 database/*.FDB
+export.csv
+phpinfo.pdf
