@@ -1,0 +1,10 @@
+version: '3'
+services:
+  firebird:
+    volumes:
+      - ./database:/firebird/data
+    environment:
+      - ISC_PASSWORD=masterkey
+    ports:
+      - "3050:3050"
+    image: "jacobalberty/firebird:2.5-sc"
